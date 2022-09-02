@@ -1,0 +1,2013 @@
+
+2022-08-11 18:42:05,642 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:922]
+2022-08-12 09:08:57,750 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:914]
+2022-08-12 09:09:22,030 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:914]
+2022-08-12 09:09:39,118 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:914]
+2022-08-12 09:10:50,572 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:914]
+2022-08-12 09:15:44,556 ERROR: Exception on /artists/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 777, in create_artist_submission
+    flash("Artist was not successfully created!")
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/helpers.py", line 423, in flash
+    session["_flashes"] = flashes
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/werkzeug/local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-12 09:16:38,188 ERROR: Exception on /artists/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 777, in create_artist_submission
+    flash("Artist was not successfully created!")
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/helpers.py", line 423, in flash
+    session["_flashes"] = flashes
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/werkzeug/local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-12 09:19:57,846 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:906]
+2022-08-12 09:20:09,013 ERROR: Exception on /artists/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 769, in create_artist_submission
+    flash("Artist was not successfully created!")
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/helpers.py", line 423, in flash
+    session["_flashes"] = flashes
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/werkzeug/local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-12 12:30:10,176 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:906]
+2022-08-12 12:31:11,281 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:906]
+2022-08-12 12:31:31,152 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:906]
+2022-08-12 12:33:49,584 ERROR: Exception on /shows/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "Show" violates foreign key constraint "Show_artist_id_fkey"
+DETAIL:  Key (artist_id)=(1) is not present in table "artists".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 868, in create_show_submission
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3383, in flush
+    self._flush(objects)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3523, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3483, in _flush
+    flush_context.execute()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 633, in execute
+    uow,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 250, in save_obj
+    insert,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 1241, in _emit_insert_statements
+    execution_options=execution_options,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "Show" violates foreign key constraint "Show_artist_id_fkey"
+DETAIL:  Key (artist_id)=(1) is not present in table "artists".
+
+[SQL: INSERT INTO "Show" (venue_id, artist_id, start_time) VALUES (%(venue_id)s, %(artist_id)s, %(start_time)s) RETURNING "Show".id]
+[parameters: {'venue_id': '02', 'artist_id': '01', 'start_time': datetime.datetime(2022, 8, 12, 12, 31, 30)}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 877, in create_show_submission
+    flash('An error occurred. Show could not be listed.')
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/helpers.py", line 423, in flash
+    session["_flashes"] = flashes
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/werkzeug/local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-12 12:42:05,732 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:906]
+2022-08-12 12:42:20,551 ERROR: Exception on /shows/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "Show" violates foreign key constraint "Show_artist_id_fkey"
+DETAIL:  Key (artist_id)=(1) is not present in table "artists".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 868, in create_show_submission
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3383, in flush
+    self._flush(objects)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3523, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3483, in _flush
+    flush_context.execute()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 633, in execute
+    uow,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 250, in save_obj
+    insert,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 1241, in _emit_insert_statements
+    execution_options=execution_options,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "Show" violates foreign key constraint "Show_artist_id_fkey"
+DETAIL:  Key (artist_id)=(1) is not present in table "artists".
+
+[SQL: INSERT INTO "Show" (venue_id, artist_id, start_time) VALUES (%(venue_id)s, %(artist_id)s, %(start_time)s) RETURNING "Show".id]
+[parameters: {'venue_id': '02', 'artist_id': '01', 'start_time': datetime.datetime(2022, 8, 12, 12, 31, 30)}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 877, in create_show_submission
+    flash('An error occurred. Show could not be listed.')
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/helpers.py", line 423, in flash
+    session["_flashes"] = flashes
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/werkzeug/local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-12 12:46:29,479 ERROR: Exception on /shows/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "Show" violates foreign key constraint "Show_artist_id_fkey"
+DETAIL:  Key (artist_id)=(1) is not present in table "artists".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 868, in create_show_submission
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3383, in flush
+    self._flush(objects)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3523, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3483, in _flush
+    flush_context.execute()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 633, in execute
+    uow,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 250, in save_obj
+    insert,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 1241, in _emit_insert_statements
+    execution_options=execution_options,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "Show" violates foreign key constraint "Show_artist_id_fkey"
+DETAIL:  Key (artist_id)=(1) is not present in table "artists".
+
+[SQL: INSERT INTO "Show" (venue_id, artist_id, start_time) VALUES (%(venue_id)s, %(artist_id)s, %(start_time)s) RETURNING "Show".id]
+[parameters: {'venue_id': '02', 'artist_id': '01', 'start_time': datetime.datetime(2022, 8, 12, 12, 42, 5)}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 877, in create_show_submission
+    flash('An error occurred. Show could not be listed.')
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/helpers.py", line 423, in flash
+    session["_flashes"] = flashes
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/werkzeug/local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-12 13:05:35,376 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:906]
+2022-08-12 13:07:45,057 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 460, in create_venue_submission
+    print("\n\n", form.error)
+AttributeError: 'VenueForm' object has no attribute 'error'
+2022-08-12 13:08:08,965 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 282, in venues
+    Venue.city, Venue.state).all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2906, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+[SQL: SELECT DISTINCT ON (venues.city, venues.state) venues.city AS venues_city, venues.state AS venues_state 
+FROM venues]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-08-12 13:10:12,674 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 460, in create_venue_submission
+    print("\n\n", form.error)
+AttributeError: 'VenueForm' object has no attribute 'error'
+2022-08-12 13:10:21,116 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 282, in venues
+    Venue.city, Venue.state).all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2906, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+[SQL: SELECT DISTINCT ON (venues.city, venues.state) venues.city AS venues_city, venues.state AS venues_state 
+FROM venues]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-08-12 13:10:26,991 ERROR: Exception on /shows [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "shows" does not exist
+LINE 2: FROM shows JOIN venues ON venues.id = shows.venue_id JOIN ar...
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 833, in shows
+    for item in data:
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2896, in __iter__
+    return self._iter().__iter__()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2906, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "shows" does not exist
+LINE 2: FROM shows JOIN venues ON venues.id = shows.venue_id JOIN ar...
+             ^
+
+[SQL: SELECT venues.id AS venues_id, venues.name AS venues_name, artists.id AS artists_id, artists.name AS artists_name, artists.image_link AS artists_image_link, shows.start_time AS shows_start_time 
+FROM shows JOIN venues ON venues.id = shows.venue_id JOIN artists ON artists.id = shows.artist_id]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-08-12 13:10:37,030 ERROR: Exception on /artists/search [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: object_as() missing 1 required positional argument: 'obj'
+2022-08-12 13:23:15,448 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:903]
+2022-08-12 13:24:14,822 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 457, in create_venue_submission
+    print("\n\n", form.error)
+AttributeError: 'VenueForm' object has no attribute 'error'
+2022-08-12 13:26:00,725 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:903]
+2022-08-12 13:26:09,911 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 457, in create_venue_submission
+    print("\n", form.error)
+AttributeError: 'VenueForm' object has no attribute 'error'
+2022-08-12 13:31:16,491 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 457, in create_venue_submission
+    print("\n", form.error)
+AttributeError: 'VenueForm' object has no attribute 'error'
+2022-08-12 17:41:56,446 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:903]
+2022-08-12 17:43:38,932 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 457, in create_venue_submission
+    print("\n", form.error)
+AttributeError: 'VenueForm' object has no attribute 'error'
+2022-08-12 18:08:08,885 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 457, in create_venue_submission
+    print("\n", form.error)
+AttributeError: 'VenueForm' object has no attribute 'error'
+2022-08-12 18:08:40,205 ERROR: Exception on /shows [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "shows" does not exist
+LINE 2: FROM shows JOIN venues ON venues.id = shows.venue_id JOIN ar...
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 830, in shows
+    for item in data:
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2896, in __iter__
+    return self._iter().__iter__()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2906, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "shows" does not exist
+LINE 2: FROM shows JOIN venues ON venues.id = shows.venue_id JOIN ar...
+             ^
+
+[SQL: SELECT venues.id AS venues_id, venues.name AS venues_name, artists.id AS artists_id, artists.name AS artists_name, artists.image_link AS artists_image_link, shows.start_time AS shows_start_time 
+FROM shows JOIN venues ON venues.id = shows.venue_id JOIN artists ON artists.id = shows.artist_id]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-08-12 18:08:47,121 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 282, in venues
+    Venue.city, Venue.state).all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2906, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+[SQL: SELECT DISTINCT ON (venues.city, venues.state) venues.city AS venues_city, venues.state AS venues_state 
+FROM venues]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-08-12 18:08:54,625 ERROR: Exception on /venues/search [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "venues" does not exist
+LINE 2: FROM venues 
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 309, in search_venues
+    Venue.state.ilike(f'%{search_term}%')
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2906, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "venues" does not exist
+LINE 2: FROM venues 
+             ^
+
+[SQL: SELECT venues.id AS venues_id, venues.name AS venues_name, venues.city AS venues_city, venues.state AS venues_state, venues.address AS venues_address, venues.phone AS venues_phone, venues.image_link AS venues_image_link, venues.facebook_link AS venues_facebook_link, venues.description AS venues_description, venues.seeking_talent AS venues_seeking_talent, venues.website AS venues_website, venues.genres AS venues_genres 
+FROM venues 
+WHERE venues.name ILIKE %(name_1)s OR venues.city ILIKE %(city_1)s OR venues.state ILIKE %(state_1)s]
+[parameters: {'name_1': '%az%', 'city_1': '%az%', 'state_1': '%az%'}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-08-12 18:52:55,653 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:908]
+2022-08-12 18:53:29,016 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 282, in venues
+    Venue.city, Venue.state).all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2906, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+[SQL: SELECT DISTINCT ON (venues.city, venues.state) venues.city AS venues_city, venues.state AS venues_state 
+FROM venues]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-08-12 18:53:36,257 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 282, in venues
+    Venue.city, Venue.state).all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2768, in all
+    return self._iter().all()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2906, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 333, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1508, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1863, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2044, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "venues" does not exist
+LINE 2: FROM venues
+             ^
+
+[SQL: SELECT DISTINCT ON (venues.city, venues.state) venues.city AS venues_city, venues.state AS venues_state 
+FROM venues]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-08-12 18:54:13,813 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 431, in create_venue_submission
+    if form.validate():
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 329, in validate
+    return super().validate(extra)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 146, in validate
+    if not field.validate(self, extra):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 242, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 262, in _run_validation_chain
+    validator(form, self)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/forms.py", line 9, in my_length_check
+    if len(field.data) > 120:
+TypeError: object of type 'NoneType' has no len()
+2022-08-12 18:56:40,859 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 431, in create_venue_submission
+    if form.validate():
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 329, in validate
+    return super().validate(extra)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 146, in validate
+    if not field.validate(self, extra):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 242, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 262, in _run_validation_chain
+    validator(form, self)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/forms.py", line 9, in my_length_check
+    if len(field.data) > 120:
+TypeError: object of type 'NoneType' has no len()
+2022-08-13 08:05:01,931 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:908]
+2022-08-13 08:09:52,433 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 431, in create_venue_submission
+    if form.validate():
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 329, in validate
+    return super().validate(extra)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 146, in validate
+    if not field.validate(self, extra):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 242, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 262, in _run_validation_chain
+    validator(form, self)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/forms.py", line 9, in my_length_check
+    if len(field.data) > 120:
+TypeError: object of type 'NoneType' has no len()
+2022-08-13 08:13:57,183 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:908]
+2022-08-13 08:14:17,319 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:908]
+2022-08-13 08:15:44,384 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:908]
+2022-08-13 08:17:51,147 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 431, in create_venue_submission
+    if form.validate():
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 329, in validate
+    return super().validate(extra)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 146, in validate
+    if not field.validate(self, extra):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 242, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 262, in _run_validation_chain
+    validator(form, self)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/forms.py", line 9, in my_length_check
+    if len(field.data) > 120:
+TypeError: object of type 'NoneType' has no len()
+2022-08-13 08:18:10,929 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 431, in create_venue_submission
+    if form.validate():
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 329, in validate
+    return super().validate(extra)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 146, in validate
+    if not field.validate(self, extra):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 242, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 262, in _run_validation_chain
+    validator(form, self)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/forms.py", line 9, in my_length_check
+    if len(field.data) > 120:
+TypeError: object of type 'NoneType' has no len()
+2022-08-13 08:26:40,363 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 287, in venues
+    result.apprend({
+AttributeError: 'list' object has no attribute 'apprend'
+2022-08-13 08:26:48,160 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 287, in venues
+    result.apprend({
+AttributeError: 'list' object has no attribute 'apprend'
+2022-08-13 08:26:53,951 ERROR: Exception on /shows [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 842, in shows
+    "start_time": item[5].strftime("%Y-%m-%dT%H:%M:%S%z"),
+AttributeError: 'str' object has no attribute 'strftime'
+2022-08-13 08:27:00,023 ERROR: Exception on /artists/1 [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 549, in show_artist
+    setattr(artist, "genres", artist.genres.split(","))
+AttributeError: 'NoneType' object has no attribute 'split'
+2022-08-13 08:27:05,705 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 287, in venues
+    result.apprend({
+AttributeError: 'list' object has no attribute 'apprend'
+2022-08-13 08:27:09,810 ERROR: Exception on /shows [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 842, in shows
+    "start_time": item[5].strftime("%Y-%m-%dT%H:%M:%S%z"),
+AttributeError: 'str' object has no attribute 'strftime'
+2022-08-13 08:27:57,128 ERROR: Exception on /shows [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 842, in shows
+    "start_time": item[5].strftime("%Y-%m-%dT%H:%M:%S%z"),
+AttributeError: 'str' object has no attribute 'strftime'
+2022-08-13 20:26:43,140 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:908]
+2022-08-13 20:28:32,347 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 431, in create_venue_submission
+    if form.validate():
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 329, in validate
+    return super().validate(extra)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 146, in validate
+    if not field.validate(self, extra):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 242, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 262, in _run_validation_chain
+    validator(form, self)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/forms.py", line 9, in my_length_check
+    if len(field.data) > 120:
+TypeError: object of type 'NoneType' has no len()
+2022-08-13 20:49:10,524 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 431, in create_venue_submission
+    flash('Venue ' + request.form['name'] +
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 329, in validate
+    return super().validate(extra)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/form.py", line 146, in validate
+    if not field.validate(self, extra):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 242, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/wtforms/fields/core.py", line 262, in _run_validation_chain
+    validator(form, self)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/forms.py", line 9, in my_length_check
+    )
+TypeError: object of type 'NoneType' has no len()
+2022-08-13 20:53:51,991 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:887]
+2022-08-13 21:00:37,696 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:887]
+2022-08-13 21:00:53,704 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 441, in create_venue_submission
+    print("\n\n", form.error)
+AttributeError: 'VenueForm' object has no attribute 'error'
+2022-08-13 21:46:32,362 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:881]
+2022-08-13 21:47:27,140 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 434, in create_venue_submission
+    os.abort(500)
+TypeError: abort() takes no arguments (1 given)
+2022-08-13 21:49:08,003 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:881]
+2022-08-13 21:51:57,169 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:881]
+2022-08-13 21:52:15,909 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 266, in venues
+    result.apprend({
+AttributeError: 'list' object has no attribute 'apprend'
+2022-08-13 22:19:11,391 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:878]
+2022-08-13 22:21:21,042 ERROR: Exception on /venues [GET] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 266, in venues
+    result.apprend({
+AttributeError: 'list' object has no attribute 'apprend'
+2022-08-13 22:56:05,981 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:872]
+2022-08-13 22:59:43,664 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-13 23:01:51,337 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-13 23:02:01,006 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-13 23:05:20,470 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-13 23:05:30,511 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-13 23:06:03,451 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-13 23:08:39,735 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:866]
+2022-08-13 23:09:04,223 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 398, in create_venue_submission
+    data = Venue()
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-13 23:17:43,552 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 398, in create_venue_submission
+    data = Venue()
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-13 23:24:37,593 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 398, in create_venue_submission
+    data.state = state
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-13 23:43:39,265 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 398, in create_venue_submission
+    data.state = state
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-13 23:45:12,931 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 398, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-13 23:48:03,819 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 398, in create_venue_submission
+    flash('An error occurred. Venue ' +
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-14 00:02:28,862 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 398, in create_venue_submission
+    # return render_template('forms/new_venue.html')
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-14 00:06:16,918 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 00:07:20,586 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 00:07:47,180 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 00:09:49,964 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 00:10:02,660 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 00:10:27,954 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 00:11:15,558 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 00:11:45,586 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:13:35,243 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 00:14:00,978 ERROR: Exception on /artists/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 675, in create_artist_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 690, in create_artist_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:16:54,179 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:19:40,951 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:20:26,808 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:20:33,305 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:21:52,968 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    flash('An error occurred. Venue ' +
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:21:58,434 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    flash('An error occurred. Venue ' +
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:24:05,099 ERROR: Exception on /artists/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 675, in create_artist_submission
+    phone = req['phone']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 690, in create_artist_submission
+    flash('An error occurred. Artist ' +
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:25:55,044 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    genres = req.form['genres']
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    flash('An error occurred. Venue ' +
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:27:16,988 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+    data = Venue()
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    data.genres = genres
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:28:40,722 ERROR: Exception on /artists/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 675, in create_artist_submission
+    form = ArtistForm()
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 690, in create_artist_submission
+    seeking_description=form.seeking_description.data
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:29:43,550 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    city = request.form['city']
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:30:50,888 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 385, in create_venue_submission
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 401, in create_venue_submission
+    city = request.form['city']
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 00:36:25,596 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-14 00:41:19,284 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-14 00:41:33,073 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-14 00:58:41,747 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:868]
+2022-08-14 00:59:26,458 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 399, in create_venue_submission
+    data = Venue()
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-14 01:09:38,684 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 399, in create_venue_submission
+    data.state = state
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-14 01:13:24,069 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 399, in create_venue_submission
+    phone = req['phone']
+TypeError: __init__() missing 9 required positional arguments: 'name', 'genres', 'address', 'city', 'state', 'phone', 'website', 'facebook_link', and 'image_link'
+2022-08-14 01:18:21,065 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:860]
+2022-08-14 01:18:47,662 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:860]
+2022-08-14 01:32:47,547 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:843]
+2022-08-14 01:32:56,598 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:843]
+2022-08-14 01:33:18,379 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:843]
+2022-08-14 01:34:43,921 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:843]
+2022-08-14 07:24:23,359 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:26:17,341 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 384, in create_venue_submission
+    genres = req.form.getlist('genres')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 400, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 07:39:04,562 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:39:37,500 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:39:52,917 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:41:17,893 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:41:36,060 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:42:02,176 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:42:24,399 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 384, in create_venue_submission
+    genres = req.form.getlist('genres')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 400, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 07:43:08,853 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:43:40,439 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:43:56,466 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 384, in create_venue_submission
+    genres = req.form.getlist('genres')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 400, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 07:44:29,307 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:44:43,185 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 384, in create_venue_submission
+    genres = req.form.getlist('genres')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 400, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 07:47:16,510 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:47:43,232 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
+2022-08-14 07:48:02,662 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 384, in create_venue_submission
+    genres = req.form.getlist('genres')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py", line 400, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-14 07:49:15,655 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app1.py:559]
+2022-08-14 07:49:31,035 ERROR: Exception on /venues/create [POST] [in /home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app1.py", line 226, in create_venue_submission
+    genres = req.form.getlist('genres')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lidwineruf/anat/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app1.py", line 242, in create_venue_submission
+    data.name + ' could not be listed.')
+TypeError: can only concatenate str (not "NoneType") to str
+2022-08-15 17:33:58,472 INFO: errors [in /home/lidwineruf/UDACITY_Proj/FSND/projects/01_fyyur/starter_code/app.py:828]
