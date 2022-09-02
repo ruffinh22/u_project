@@ -24,7 +24,7 @@ Werkzeug==0.15.6
 wrapt==1.11.1
 Flask-Cors==3.0.8
 
-#### Python 3.7
+#### Python 3.9 (conda3)
 
 Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
